@@ -1,4 +1,4 @@
-#Easy React Dev Environment
+# Easy React Dev Environment
 
 - This is a Docker-based local dev environment boilerplate with a barebone React application ready for quick setup.
 
@@ -6,31 +6,32 @@
 
 - React recommends using a framework (NextJS) for real-life, production-ready React applications.
 
-##How to use
+## How to use
 
-$ git clone
+### `$ git clone git@github.com:ivallogenes/react-dev-env.git`
 
-###Run the below command once:
+### Run the below command once:
 
-$ docker-compose up -d --build
+### `$ docker-compose up -d --build`
 
-###To spin up your node container thereafter run:
+### To spin up your node container thereafter run:
 
-$ docker-compose run --rm cli
+### `$ docker-compose run --rm cli`
 
-$ npm install
+### `$ npm install`
 
-$ npm start
+### `$ npm start`
 
-###Access your app from a browser, use your VM IP address:
+### Access your app from a browser, use your VM IP address:
 
 **http://127.0.0.1:3000/**
 
-###To upgrade React version:
+### To upgrade React version:
 
-$ npm install react-scripts@latest
+### `$ npm install react-scripts@latest`
 
 >
+----
 - You can specify node version in the Dockerfile before building.
 
 - ./app folder is used for the React application root directory.
@@ -39,7 +40,7 @@ $ npm install react-scripts@latest
 - Use Git outside the node container aka from your main cli prompt.
 ----
 
-##Pre-requisites
+## Pre-requisites
 
 - SSH / Bash command-line interface
 - Docker Engine installed on Linux / Ubuntu OS
