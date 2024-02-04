@@ -10,6 +10,10 @@
 
 ### `$ git clone git@github.com:ivallogenes/react-dev-env.git`
 
+### Create the app folder where the React app will live
+
+### `$ mkdir app`
+
 ### Run the below command once:
 
 ### `$ docker-compose up -d --build`
@@ -18,7 +22,7 @@
 
 ### `$ docker-compose run --rm cli`
 
-### `$ npm install`
+### `$ npm install` OR `npx create-react-app`
 
 ### `$ npm start`
 
