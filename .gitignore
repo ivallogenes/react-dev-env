@@ -23,5 +23,5 @@ Thumbs.db
 
 # Exclude actual project files #
 # projects can be tracked in own repos inside /app
+/app/*
 /app
-/app/node_modules
